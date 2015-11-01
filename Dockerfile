@@ -1,5 +1,5 @@
 FROM ruby:2.1
-MAINTAINER graham@grahamc.com
+MAINTAINER jason@thesparktree.com
 
 RUN apt-get update \
   && apt-get install -y \
@@ -20,5 +20,4 @@ VOLUME /src
 EXPOSE 4000
 
 WORKDIR /src
-ENTRYPOINT ["jekyll"]
 
